@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from './Store';
+import { addToCart } from './store';
 
 function WomanDress({ searchTerm = "" }) {
   const dispatch = useDispatch();
