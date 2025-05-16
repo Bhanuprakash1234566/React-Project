@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { incrementQuantity, decrementQuantity, removeFromCart } from './store';
+import { incrementQuantity, decrementQuantity, removeFromCart } from './Store';
 import { Link } from 'react-router-dom';
 import QRCode from 'react-qr-code';
 import emailjs from 'emailjs-com';
