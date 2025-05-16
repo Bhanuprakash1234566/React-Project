@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from './Store';
+import { addToCart } from './store';
 
 const ITEMS_PER_PAGE = 4;
 
